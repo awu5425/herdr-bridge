@@ -1,0 +1,24 @@
+# Python & packaging
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.venv/
+
+# Tool caches
+.pytest_cache/
+.ruff_cache/
+graphify-out/
+
+# Local configs, secrets & runtime files
+.env
+.env.*
+!.env.example
+LOCAL_CONFIG*.md
+HANDOFF.local.md
+*.log
+*.pid
+bindings.json
+daemon-status.json
